@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-13 財經日報 | 台股強彈收復 43,675 點，惟美股費半重挫 3.43% 添變數</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen antialiased">
+
+  <!-- 區塊 1：頂部導覽列與日報 Header 標題區 -->
+  <header class="bg-slate-900 text-white border-b border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between text-sm border-b border-slate-800/80">
+      <a href="../index.html" class="inline-flex items-center gap-1.5 text-slate-300 hover:text-white font-medium transition">
+        <span>←</span> 返回日報總覽
+      </a>
+      <div class="flex items-center gap-4">
+        <span class="text-slate-400 font-mono text-xs hidden sm:inline">REPORT ID: 2026-11-13</span>
+        <a href="../raw/2026-11-13-raw.md" class="text-xs bg-slate-800 hover:bg-slate-700 text-blue-300 px-3 py-1 rounded-md border border-slate-700 transition">
+          📄 檢視原始資料 (raw.md)
+        </a>
+      </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-10">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
+        <span class="text-xs font-mono uppercase tracking-wider bg-blue-600/20 text-blue-300 border border-blue-500/30 px-3 py-1 rounded-full">
+          DAILY MARKET BRIEFING | 2026-11-13 (週五)
+        </span>
+        <span class="text-xs font-semibold px-3 py-1 rounded-full border bg-amber-500/20 text-amber-300 border-amber-400/40">
+          ◆ 市場情緒：震盪觀望（台股強彈、美股夜盤科技承壓）
+        </span>
+      </div>
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-white">
+        台股強彈收復 43,675 點，惟美股費半重挫 3.43% 與輝達高層動向添變數
+      </h1>
+      <p class="mt-4 text-slate-300 text-sm sm:text-base leading-relaxed max-w-4xl">
+        <strong>30 秒執行摘要：</strong>台股於 11/13 白天交易時段由台積電（收 2,350 元）領軍強勢反彈，終場收在 43,675.12 點（+1.42%）。然而週五晚間美股開盤後，儘管美國 10 月 PPI 月增 0.3% 低於預期支撐道瓊小漲，輝達（NVIDIA）高層人事異動後續效應仍引發半導體股獲利了結，費半指數重挫 3.43%，為下週一（11/16）台股埋下補跌隱憂。
+      </p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto py-8 px-4 sm:px-6 space-y-8">
+
+    <!-- 區塊 2：跨資產核心數據看板 (Market Dashboard) -->
+    <section aria-labelledby="market-dashboard">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="market-dashboard" class="text-xl font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>
+          跨資產核心市場總覽
+        </h2>
+        <span class="text-xs text-slate-500">基準：2026-11-13 台美股收盤（台股紅漲綠跌制）</span>
+      </div>
+
+      <!-- 核心股市指數卡片 (Grid 4 欄) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+        <!-- 台股加權 -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+            <span class="font-semibold">台股加權指數 (TAIEX)</span>
+            <span>11/13 收盤</span>
+          </div>
+          <div class="text-2xl font-bold font-mono tabular-nums text-slate-900 my-1">43,675.12</div>
+          <div class="flex items-center justify-between mt-2">
+            <span class="inline-flex items-center text-xs font-semibold px-2 py-0.5 rounded border text-red-600 bg-red-50 border-red-200 font-mono">
+              ▲ +1.42%
+            </span>
+            <span class="text-xs text-slate-400">台積電收 2,350 元</span>
+          </div>
+        </div>
+
+        <!-- S&P 500 -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+            <span class="font-semibold">標普 500 (S&amp;P 500)</span>
+            <span>11/13 收盤</span>
+          </div>
+          <div class="text-2xl font-bold font-mono tabular-nums text-slate-900 my-1">7,561.67</div>
+          <div class="flex items-center justify-between mt-2">
+            <span class="inline-flex items-center text-xs font-semibold px-2 py-0.5 rounded border text-emerald-600 bg-emerald-50 border-emerald-200 font-mono">
+              ▼ -30.73 (-0.40%)
+            </span>
+            <span class="text-xs text-slate-400">大型科技股熄火</span>
+          </div>
+        </div>
+
+        <!-- Nasdaq -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+            <span class="font-semibold">那斯達克 (Nasdaq)</span>
+            <span>11/13 收盤</span>
+          </div>
+          <div class="text-2xl font-bold font-mono tabular-nums text-slate-900 my-1">25,136.27</div>
+          <div class="flex items-center justify-between mt-2">
+            <span class="inline-flex items-center text-xs font-semibold px-2 py-0.5 rounded border text-emerald-600 bg-emerald-50 border-emerald-200 font-mono">
+              ▼ -229.82 (-0.91%)
+            </span>
+            <span class="text-xs text-slate-400">AI 概念股獲利了結</span>
+          </div>
+        </div>
+
+        <!-- 費城半導體 -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+            <span class="font-semibold">費城半導體 (SOX)</span>
+            <span>11/13 收盤</span>
+          </div>
+          <div class="text-2xl font-bold font-mono tabular-nums text-slate-900 my-1">10,146.32</div>
+          <div class="flex items-center justify-between mt-2">
+            <span class="inline-flex items-center text-xs font-semibold px-2 py-0.5 rounded border text-emerald-600 bg-emerald-50 border-emerald-200 font-mono">
+              ▼ -360.35 (-3.43%)
+            </span>
+            <span class="text-xs text-slate-400">回測萬點大關</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 總經與跨市場指標橫條 -->
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+        <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">總經與跨市場關鍵指標</div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 text-sm">
+          <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+            <div class="text-xs text-slate-500">道瓊工業指數 (DJIA)</div>
+            <div class="font-bold font-mono text-slate-900 mt-1">52,347.55</div>
+            <div class="text-xs font-mono text-red-600 mt-0.5">▲ +50.46 (+0.10%)</div>
+          </div>
+          <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+            <div class="text-xs text-slate-500">美債 10 年期殖利率</div>
+            <div class="font-bold font-mono text-slate-900 mt-1">4.95%</div>
+            <div class="text-xs font-mono text-amber-700 mt-0.5">◆ 高檔震盪 (+2 bps)</div>
+          </div>
+          <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+            <div class="text-xs text-slate-500">美元指數 (DXY)</div>
+            <div class="font-bold font-mono text-slate-900 mt-1">103.43</div>
+            <div class="text-xs font-mono text-red-600 mt-0.5">▲ +0.10%</div>
+          </div>
+          <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+            <div class="text-xs text-slate-500">WTI 西德州原油</div>
+            <div class="font-bold font-mono text-slate-900 mt-1">$87.18 / 桶</div>
+            <div class="text-xs font-mono text-emerald-600 mt-0.5">▼ -0.13%</div>
+          </div>
+          <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+            <div class="text-xs text-slate-500">國際現貨黃金 (Gold)</div>
+            <div class="font-bold font-mono text-slate-900 mt-1">$3,881.60 / 盎司</div>
+            <div class="text-xs font-mono text-red-600 mt-0.5">▲ +0.15% 止跌回穩</div>
+          </div>
+        </div>
+        <p class="text-[11px] text-slate-400 mt-3 text-right">
+          資料來源：Investing.com、永豐金證券、玩股網、鉅亨網、Admiral Markets（基準時間：2026-11-13 收盤）
+        </p>
+      </div>
+    </section>
+
+    <!-- 區塊 3：頭條財經新聞深度解析 -->
+    <section aria-labelledby="top-news">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="top-news" class="text-xl font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>
+          頭條財經新聞深度解析
+        </h2>
+        <span class="text-xs text-slate-500">共 3 則核心事件</span>
+      </div>
+
+      <div class="space-y-4">
+        <!-- 新聞 1 -->
+        <article class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono font-bold text-slate-500">NEWS 01</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border text-emerald-600 bg-emerald-50 border-emerald-200">
+                ▼ 利空衝擊（半導體修正）
+              </span>
+            </div>
+            <span class="text-xs text-slate-400">來源：永豐金證券 / CMoney | 2026-11-13</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">
+            輝達（NVIDIA）高層人事異動效應發酵，費城半導體指數單日重挫 3.43%
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">
+            儘管台股於 11 月 13 日白天交易時段在台積電收上 2,350 元的帶領下強勁反彈、收在 43,675.12 點，但週五晚間美股開盤後，市場持續評估輝達執行長黃仁勳卸任風波及新管理團隊交接、出口合規等潛在變數。外資機構針對漲多的 AI 晶片族群進行減碼，拖累費城半導體指數大跌 360.35 點（-3.43%），收在 10,146.32 點。
+          </p>
+          <div class="border-l-4 border-blue-600 bg-slate-50 p-3 rounded-r-lg text-sm">
+            <span class="font-bold text-slate-900">💡 一句話市場影響解讀：</span>
+            <span class="text-slate-700">週五晚間美股費半指數重挫 3.43% 與台股白天漲勢形成顯著背離，將直接造成下週一（11/16）台股電子權值股與 AI 伺服器族群的劇烈補跌壓力。</span>
+          </div>
+        </article>
+
+        <!-- 新聞 2 -->
+        <article class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono font-bold text-slate-500">NEWS 02</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border text-amber-700 bg-amber-50 border-amber-200">
+                ◆ 總經數據（通膨溫和）
+              </span>
+            </div>
+            <span class="text-xs text-slate-400">來源：Investing.com / 永豐金證券 | 2026-11-13</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">
+            美國 10 月 PPI 月增 0.3% 低於市場預期，道瓊工業指數逆勢小漲 50 點
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">
+            美國勞工部公布 10 月生產者物價指數（PPI）年增 6.5%，月增幅則為 0.3%，低於華爾街原先預期。數據顯示生產端通膨並未再度加速惡化，稍微緩解市場對聯準會（Fed）於 12 月會議採取激進升息手段的憂慮，激勵道瓊工業指數逆勢上漲 50.46 點（+0.10%），收在 52,347.55 點。
+          </p>
+          <div class="border-l-4 border-blue-600 bg-slate-50 p-3 rounded-r-lg text-sm">
+            <span class="font-bold text-slate-900">💡 一句話市場影響解讀：</span>
+            <span class="text-slate-700">PPI 溫和雖為傳統價值股提供下檔保護，但美債 10 年期殖利率仍維持在 4.95% 高檔，資金呈現「棄高估值科技、轉進道瓊防禦股」的板塊輪動。</span>
+          </div>
+        </article>
+
+        <!-- 新聞 3 -->
+        <article class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-mono font-bold text-slate-500">NEWS 03</span>
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full border text-red-600 bg-red-50 border-red-200">
+                ▲ 避險資產（金價止穩）
+              </span>
+            </div>
+            <span class="text-xs text-slate-400">來源：Admiral Markets / USAGold | 2026-11-13</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">
+            國際現貨黃金止跌回穩守住 3,880 美元關卡，跨資產避險需求浮現
+          </h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4">
+            國際現貨黃金（Spot Gold）在經歷前幾日的修正後，於 11 月 13 日獲得買盤承接，終場小幅反彈約 0.15% 收在每盎司 3,881.60 美元附近（盤中一度觸及 3,890.88 美元）。在科技股波動加劇之際，貴金屬與短天期公債重新吸引防禦型資金配置。
+          </p>
+          <div class="border-l-4 border-blue-600 bg-slate-50 p-3 rounded-r-lg text-sm">
+            <span class="font-bold text-slate-900">💡 一句話市場影響解讀：</span>
+            <span class="text-slate-700">黃金守穩 3,880 美元顯示市場避險意識升溫，建議投資組合保留適度黃金或高評級債券以對沖股市波動。</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 區塊 4：焦點產業資金流向與指標個股表現 -->
+    <section aria-labelledby="sector-spotlight">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="sector-spotlight" class="text-xl font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>
+          焦點產業資金流向與指標個股
+        </h2>
+        <span class="text-xs text-slate-500">台股日盤反彈 vs. 美股夜盤修正</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center gap-2 text-red-600 font-bold text-sm mb-2">
+            <span>▲ 當日強勢與資金流入族群</span>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            <strong>台股晶圓代工與大型金控（日盤）、美股道瓊價值藍籌（夜盤）：</strong>台股 11/13 白天受惠外資回補權值股，台積電領軍上攻；美股晚間則由受惠通膨趨緩的金融、工業與醫療保健類股撐盤。
+          </p>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+          <div class="flex items-center gap-2 text-emerald-600 font-bold text-sm mb-2">
+            <span>▼ 當日弱勢與資金調節族群</span>
+          </div>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            <strong>美股 AI 晶片與半導體設備股（夜盤）：</strong>受輝達高層人事震盪影響，費城半導體成分股全面回檔，高本益比 AI 硬體與伺服器供應鏈面臨週末前機構法人減碼壓力。
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-100 flex items-center justify-between">
+          <h3 class="font-bold text-slate-900 text-sm">指標權值股與跨市場焦點表現</h3>
+          <span class="text-xs text-slate-400">數據基準：2026-11-13 收盤</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-sm">
+            <thead>
+              <tr class="bg-slate-50 text-slate-500 text-xs uppercase">
+                <th class="py-3 px-6 font-semibold">代號 / 名稱</th>
+                <th class="py-3 px-4 font-semibold">所屬市場與產業</th>
+                <th class="py-3 px-4 font-semibold text-right">收盤價</th>
+                <th class="py-3 px-4 font-semibold text-right">表現狀態</th>
+                <th class="py-3 px-6 font-semibold">當日籌碼與基本面焦點解讀</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100">
+              <tr class="hover:bg-slate-50/70">
+                <td class="py-3.5 px-6 font-bold text-slate-900">2330 台積電</td>
+                <td class="py-3.5 px-4 text-slate-600">台股 / 晶圓代工</td>
+                <td class="py-3.5 px-4 text-right font-mono font-bold">2,350 元</td>
+                <td class="py-3.5 px-4 text-right font-mono text-red-600 font-semibold">▲ 週線強彈</td>
+                <td class="py-3.5 px-6 text-slate-600">11/13 台股收盤站穩 2,350 元，單週漲幅逾 10%，惟需提防美股費半夜盤下跌之連動。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="py-3.5 px-6 font-bold text-slate-900">SOX 費半指數</td>
+                <td class="py-3.5 px-4 text-slate-600">美股 / 半導體指標</td>
+                <td class="py-3.5 px-4 text-right font-mono font-bold">10,146.32</td>
+                <td class="py-3.5 px-4 text-right font-mono text-emerald-600 font-semibold">▼ -3.43%</td>
+                <td class="py-3.5 px-6 text-slate-600">輝達高層異動引發法人調節半導體部位，下週一台股科技股將面臨直接考驗。</td>
+              </tr>
+              <tr class="hover:bg-slate-50/70">
+                <td class="py-3.5 px-6 font-bold text-slate-900">XAU/USD 現貨黃金</td>
+                <td class="py-3.5 px-4 text-slate-600">商品 / 貴金屬避險</td>
+                <td class="py-3.5 px-4 text-right font-mono font-bold">$3,881.60</td>
+                <td class="py-3.5 px-4 text-right font-mono text-red-600 font-semibold">▲ +0.15%</td>
+                <td class="py-3.5 px-6 text-slate-600">連日回檔後於 3,880 美元關卡獲得支撐，反映週末前避險資金進場駐守。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 5：投資策略矩陣與本週風險行事曆 -->
+    <section aria-labelledby="strategy-matrix">
+      <div class="flex items-center justify-between mb-4">
+        <h2 id="strategy-matrix" class="text-xl font-bold text-slate-900 flex items-center gap-2">
+          <span class="w-1.5 h-6 bg-blue-600 rounded-full"></span>
+          投資策略矩陣與風險提示
+        </h2>
+        <span class="text-xs text-slate-500">量化與總體研究助理建議</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <!-- 短線操作觀察 -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="font-bold text-slate-900">⏱️ 短線操作觀察（1～5 個交易日）</h3>
+            <span class="text-xs bg-amber-50 text-amber-700 border border-amber-200 px-2.5 py-0.5 rounded-full font-semibold">提高警覺</span>
+          </div>
+          <ul class="space-y-2.5 text-sm text-slate-600">
+            <li>• <strong>台美時差背離警示：</strong>台股 11/13 收在 43,675 點高檔，但同日晚間美股費半重挫 3.43%，下週一（11/16）台股極可能大幅跳空開低。</li>
+            <li>• <strong>關鍵支撐與壓力：</strong>下檔先看 42,000 點與 41,000 點整數支撐；上檔 43,600～44,000 點形成短線套牢壓力區。</li>
+            <li>• <strong>操作紀律：</strong>下週一早盤切忌盲目進場接刀，優先檢視手中高融資使用率之 AI 中小型股並嚴設停利停損。</li>
+          </ul>
+        </div>
+
+        <!-- 中長線資產配置建議 -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="font-bold text-slate-900">🧭 中長線資產配置建議（1～3 個月）</h3>
+            <span class="text-xs bg-blue-50 text-blue-700 border border-blue-200 px-2.5 py-0.5 rounded-full font-semibold">保留現金彈性</span>
+          </div>
+          <ul class="space-y-2.5 text-sm text-slate-600">
+            <li>• <strong>拉高現金與防禦水位：</strong>建議將現金與短天期美債部位維持在 25%～35%，以應對科技巨頭人事變動帶來的評價面修正。</li>
+            <li>• <strong>分批佈局邏輯：</strong>美國 10 月 PPI 顯示通膨並未失控，台灣半導體長線基本面仍穩健，待急跌恐慌量能宣洩後再行分批承接晶圓代工龍頭。</li>
+            <li>• <strong>跨資產避險：</strong>配置 5%～10% 黃金部位（3,880 美元具支撐）與高殖利率電信／公用事業股以降低投組波動度。</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 關鍵風險事件提示框 -->
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-5">
+        <h3 class="text-sm font-bold text-amber-900 flex items-center gap-2 mb-2">
+          <span>⚠️</span> 未來一週關鍵風險事件與總經行事曆
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-amber-800 mt-3">
+          <div class="bg-white/80 rounded-lg p-3 border border-amber-200/70">
+            <div class="font-bold text-amber-900 mb-1">1. 11/16 (週一) 台股開盤補跌測試</div>
+            <p>觀察台股反應費半 -3.43% 跌幅時，外資現貨賣超幅度與台積電能否守住 2,200 元關卡。</p>
+          </div>
+          <div class="bg-white/80 rounded-lg p-3 border border-amber-200/70">
+            <div class="font-bold text-amber-900 mb-1">2. 輝達管理層後續動向與供應鏈說法</div>
+            <p>黃仁勳卸任風波後，市場高度關注輝達官方對下一代 AI 伺服器出貨時程之穩定聲明。</p>
+          </div>
+          <div class="bg-white/80 rounded-lg p-3 border border-amber-200/70">
+            <div class="font-bold text-amber-900 mb-1">3. 信用交易整戶擔保維持率</div>
+            <p>若台股出現千點以上急跌，需留意中小型電子股是否觸發融資追繳與多殺多賣壓。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 區塊 6：前後期日報切換導覽 -->
+    <nav class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-slate-200 text-sm" aria-label="日報前後期導覽">
+      <a href="../index.html" class="w-full sm:w-auto px-4 py-2.5 rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 font-medium text-center transition">
+        ← 返回歷次日報總覽
+      </a>
+      <a href="./2026-11-16.html" class="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 font-medium text-center shadow-sm transition">
+        下一交易日報告 (2026-11-16：台股重挫 2,635 點解析) →
+      </a>
+    </nav>
+
+  </main>
+
+  <!-- Footer 免責聲明 -->
+  <footer class="max-w-5xl mx-auto py-8 px-4 sm:px-6 border-t border-slate-200 text-center text-xs text-slate-400 space-y-1">
+    <p>本報告由 AI Agent 依循 <code>AGENTS.md</code> 與 <code>skills/report-generator.md</code> 規範自動蒐集公開財經資訊整理生成。</p>
+    <p class="font-semibold text-slate-500">免責聲明：本報告僅供學術研究與課程作業展示參考，不構成任何證券或金融商品之投資買賣邀約。</p>
+  </footer>
+
+</body>
+</html>
